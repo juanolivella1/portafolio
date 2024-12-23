@@ -15,20 +15,20 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-600">
-                Soy un desarrollador apasionado por crear soluciones web innovadoras y 
-                experiencias de usuario excepcionales. Con experiencia en tecnologías 
-                modernas como React, Node.js y bases de datos.
+              ¡Hola! Soy Juan Sebastián, un desarrollador de software apasionado con experiencia en JavaScript y React. Me encanta crear aplicaciones dinámicas y funcionales que resuelvan problemas reales.
               </p>
               <p className="text-lg text-gray-600">
                 Mi objetivo es combinar diseño y funcionalidad para crear aplicaciones 
                 web que no solo se vean bien, sino que también sean intuitivas y 
                 eficientes.
               </p>
+              <h1 className="text-4xl font-bold text-center mb-12"> ¿Qué me motiva?</h1>
+              <p className="text-lg text-gray-600" > La tecnología es un puente entre las ideas y las soluciones. Siempre estoy en busca de nuevos desafíos que me permitan aprender y aportar a proyectos significativos.¡Trabajemos juntos! </p>
             </div>
             <div className="relative">
-              <div className="aspect-w-4 aspect-h-3">
+              <div className="aspect-w-4 aspect-h-4">
                 <img
-                  src="tu-foto.jpg"
+                  src="./public/img/Picture.png"
                   alt="Profile"
                   className="rounded-lg shadow-lg object-cover"
                 />
