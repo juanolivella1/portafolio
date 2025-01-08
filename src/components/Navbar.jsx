@@ -9,7 +9,7 @@ const Navbar = () => {
     { title: 'Inicio', to: 'home' },
     { title: 'Sobre mí', to: 'about' },
     { title: 'Proyectos', to: 'projects' },
-    { title: 'Habilidades', to: 'skills' },
+    { title: 'Habilidades Técnicas', to: 'skills' },
     { title: 'Contacto', to: 'contact' },
   ];
 
@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="fixed w-full bg-white/80 backdrop-blur-sm shadow-sm z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link to="home" className="text-2xl font-bold cursor-pointer">
+          <Link to="Skills"  className="text-2xl font-bold cursor-pointer">
           </Link>
 
           {/* Desktop Menu */}
