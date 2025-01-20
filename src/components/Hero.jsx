@@ -40,7 +40,7 @@ const Hero = () => {
             <div className="relative w-64 h-64 mx-auto md:w-80 md:h-80">
               <div className="absolute inset-0 bg-blue-600 rounded-full blur-lg opacity-30"></div>
               <img //  imagen
-                src="public/img/Picture.png" 
+                src="img/Picture.png" 
                 alt="Profile"
                 className="relative w-full h-full object-cover rounded-full border-4 border-white shadow-lg"
               />

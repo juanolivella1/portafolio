@@ -48,21 +48,21 @@ const Projects = () => {
     {
       title: "Proyecto 1",
       description: "Descripción breve del proyecto 1",
-      image: "public/img/proyecto-1.jpg",
+      image: "img/proyecto-1.jpg",
       technologies: ["React", "Tailwind", "firebase"],
       link: "#"
     },
     {
       title: "Proyecto 2",
       description: "Descripción breve del proyecto 2",
-      image: "public/img/proyectos-2.jpg",
+      image: "img/proyectos-2.jpg",
       technologies: ["React", "Pocketbase"],
       link: "#"
     },
     {
       title: "Proyecto 3",
       description: "Descripción breve del proyecto 3",
-      image: "public/img/proyecto-3.jpg",
+      image: "img/proyecto-3.jpg",
       technologies: ["React", "Tailwind"],
       link: "#"
     }
