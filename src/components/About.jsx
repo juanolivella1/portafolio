@@ -28,7 +28,7 @@ const About = () => {
             <div className="relative">
               <div className="aspect-w-4 aspect-h-4">
                 <img
-                  src="./public/img/Picture.png"
+                  src="img/Picture.png"
                   alt="Profile"
                   className="rounded-lg shadow-lg object-cover"
                 />
