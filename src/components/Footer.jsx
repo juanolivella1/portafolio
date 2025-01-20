@@ -17,7 +17,7 @@ const Footer = () => {
             <a href="#" className="hover:text-blue-500 transition-colors">
               <FaLinkedin size={24} />
             </a>
-            <a href="https://wa.me/3008376494" className="hover:text-green-500 transition-colors">
+            <a href="https://wa.me/573008376494" className="hover:text-green-500 transition-colors">
               <FaWhatsapp  size={24} />
             </a>
           </div>

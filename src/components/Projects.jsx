@@ -50,21 +50,21 @@ const Projects = () => {
       description: "Descripción breve del proyecto 1",
       image: "img/proyecto-1.jpg",
       technologies: ["React", "Tailwind", "firebase"],
-      link: "#"
+      link: ""
     },
     {
       title: "Proyecto 2",
-      description: "Descripción breve del proyecto 2",
+      description: "Una aplicación web creada para gestionar el registro de asistencia en eventos organizados por la empresa Comfacesar. Permite a los usuarios registrarse de forma rápida y eficiente, con integración a una base de datos para el almacenamiento seguro de la información.",
       image: "img/proyectos-2.jpg",
       technologies: ["React", "Pocketbase"],
       link: "#"
     },
     {
       title: "Proyecto 3",
-      description: "Descripción breve del proyecto 3",
+      description: "Un portafolio web diseñado para destacar mis habilidades y proyectos como desarrollador web. Incluye secciones como 'Sobre mí', 'Proyectos' y 'Contacto', con un diseño responsivo y moderno implementado en React y Tailwind CSS.",
       image: "img/proyecto-3.jpg",
       technologies: ["React", "Tailwind"],
-      link: "#"
+      link: "https://portafolio-lake-one-13.vercel.app/"
     }
   ];
 
