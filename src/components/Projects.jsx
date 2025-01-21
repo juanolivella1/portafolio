@@ -47,17 +47,17 @@ const Projects = () => {
   const projects = [
     {
       title: "Proyecto 1",
-      description: "Descripción breve del proyecto 1",
+      description: "Una pagina web en la cual se hizo el consumo de una api de peliculas",
       image: "img/proyecto-1.jpg",
-      technologies: ["React", "Tailwind", "firebase"],
-      link: ""
+      technologies: ["React", "Tailwind", "API"],
+      link: "https://pelisflix-juan-sebastians-projects-14d1d0c8.vercel.app/"
     },
     {
       title: "Proyecto 2",
       description: "Una aplicación web creada para gestionar el registro de asistencia en eventos organizados por la empresa Comfacesar. Permite a los usuarios registrarse de forma rápida y eficiente, con integración a una base de datos para el almacenamiento seguro de la información.",
       image: "img/proyectos-2.jpg",
       technologies: ["React", "Pocketbase"],
-      link: "#"
+      link: "https://registro-comfa.vercel.app/"
     },
     {
       title: "Proyecto 3",

@@ -23,11 +23,12 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
             >
               <a
-                href="https://wa.me/3008376494"
+                href="https://wa.me/573008376494"
                 className="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-medium hover:bg-blue-700 transition-colors"
               >
                 Contáctame
               </a>
+              
             </motion.div>
           </motion.div>
            
