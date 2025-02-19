@@ -1,4 +1,4 @@
-import React from 'react';
+// Este componente es el encargado de mostrar la sección de bienvenida de la página web.
 import { motion } from 'framer-motion';
 
 const Hero = () => {
@@ -22,12 +22,21 @@ const Hero = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
+              <div className='flex gap-4'> 
               <a
                 href="https://wa.me/573008376494"
                 className="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-medium hover:bg-blue-700 transition-colors"
               >
                 Contáctame
               </a>
+              <a
+                href="https://drive.google.com/file/d/1PaIQjnz9S73-oC31-bwTQKS7b3Xraihw/view?usp=drive_link"
+                className="bg-blue-600 text-white px-8 py-3  rounded-full text-lg font-medium hover:bg-blue-700 transition-colors"
+                >
+                Mi CV
+              </a>
+
+                </div>
               
             </motion.div>
           </motion.div>

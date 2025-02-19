@@ -1,4 +1,5 @@
-import React from 'react';
+
+import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
 
 const ProjectCard = ({ title, description, image, technologies, link }) => {
@@ -42,29 +43,43 @@ const ProjectCard = ({ title, description, image, technologies, link }) => {
     </motion.div>
   );
 };
+ProjectCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
+  link: PropTypes.string.isRequired,
+};
 
 const Projects = () => {
   const projects = [
     {
-      title: "Proyecto 1",
+      title: "PelisFlix",
       description: "Una pagina web en la cual se hizo el consumo de una api de peliculas",
       image: "img/proyecto-1.jpg",
       technologies: ["React", "Tailwind", "API"],
       link: "https://pelisflix-juan-sebastians-projects-14d1d0c8.vercel.app/"
     },
     {
-      title: "Proyecto 2",
+      title: "Registro de Asistencia Comfacesar",
       description: "Una aplicación web creada para gestionar el registro de asistencia en eventos organizados por la empresa Comfacesar. Permite a los usuarios registrarse de forma rápida y eficiente, con integración a una base de datos para el almacenamiento seguro de la información.",
       image: "img/proyectos-2.jpg",
       technologies: ["React", "Pocketbase"],
       link: "https://registro-comfa.vercel.app/"
     },
     {
-      title: "Proyecto 3",
+      title: "Mi Portafolio Web",
       description: "Un portafolio web diseñado para destacar mis habilidades y proyectos como desarrollador web. Incluye secciones como 'Sobre mí', 'Proyectos' y 'Contacto', con un diseño responsivo y moderno implementado en React y Tailwind CSS.",
       image: "img/proyecto-3.jpg",
       technologies: ["React", "Tailwind"],
       link: "https://portafolio-lake-one-13.vercel.app/"
+    },
+    {
+      title: "Amazon Clone",
+      description: "Clon de Amazon desarrollado con React, Mercado Pago y Supabase. Incluye pasarela de pago, un panel de administrador para gestionar productos y un sistema de autenticación con registro e inicio de sesión",
+      image: "img/proyecto-4.jpg",
+      technologies: ["React", "Tailwind" , " MercadoPago", "Supabase" ],
+      link: "https://amazon-clone-1-iota.vercel.app/"
     }
   ];
 
