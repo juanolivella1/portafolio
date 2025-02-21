@@ -9,7 +9,7 @@ const ProjectCard = ({ title, description, image, technologies, link }) => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="bg-white rounded-xl shadow-md overflow-hidden transform transition-all duration-300"
+      className="bg-white rounded-xl shadow-md overflow-hidden transform transition-all duration-300 dark:bg-gray-900"
     >
       <img
         src={image}
@@ -19,12 +19,12 @@ const ProjectCard = ({ title, description, image, technologies, link }) => {
       />
       <div className="p-6">
         <h3 className="text-xl font-bold mb-2 text-gray-800">{title}</h3>
-        <p className="text-gray-600 mb-4">{description}</p>
-        <div className="flex flex-wrap gap-2 mb-4">
+        <p className="text-gray-600 mb-4 ">{description}</p>
+        <div className="flex flex-wrap gap-2 mb-4 ">
           {technologies.map((tech, index) => (
             <span
               key={index}
-              className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700 hover:bg-blue-100"
+              className="px-3 py-1 bg-gray-100 rounded-full text-sm text-gray-700 hover:bg-blue-100 "
             >
               {tech}
             </span>
@@ -84,11 +84,11 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gray-50">
+    <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">Mis Proyectos</h2>
         <motion.div
-          className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 "
           initial="hidden"
           animate="visible"
           variants={{
@@ -100,13 +100,14 @@ const Projects = () => {
             <ProjectCard key={index} {...project} />
           ))}
         </motion.div>
-        <div className="text-center mt-12">
+        <div className="text-center mt-12 ">
           <a
             href="https://github.com/juanolivella1?tab=repositories"
             className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-medium shadow-md hover:bg-blue-700 transition-colors"
           >
             Ver más proyectos
           </a>
+          
         </div>
       </div>
     </section>

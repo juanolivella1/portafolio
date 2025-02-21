@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Link } from 'react-scroll';
 import { HiMenu, HiX } from 'react-icons/hi';
 
@@ -14,7 +14,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed w-full bg-white/80 backdrop-blur-sm shadow-sm z-50">
+    <nav className="fixed w-full bg-white/80 backdrop-blur-sm shadow-sm z-50 dark:bg-gray-900/80">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link to="Skills"  className="text-2xl font-bold cursor-pointer">

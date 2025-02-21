@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { 
   Blocks, 
@@ -43,7 +43,7 @@ const skillsData = [
 
 function Skills() {
   return (
-    <div id='skills' className="min-h-screen bg-white py-20 px-4">
+    <div id='skills' className="min-h-screen bg-white py-20 px-4 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
         <motion.h1 
           initial={{ opacity: 0, y: -20 }}
