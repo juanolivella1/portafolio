@@ -80,6 +80,13 @@ const Projects = () => {
       image: "img/proyecto-4.jpg",
       technologies: ["React", "Tailwind" , " MercadoPago", "Supabase" ],
       link: "https://amazon-clone-1-iota.vercel.app/"
+    },
+    {
+      title: "🏐 Club Voleibol Manager",
+      description: "Una plataforma eficiente para gestionar la inscripción, mensualidades y pagos de los jugadores del club de voleibol. Permite registrar participantes, importar datos desde Excel, actualizar deudas automáticamente y llevar un historial detallado de pagos. Además, ofrece un acceso exclusivo para administradores y jugadores, garantizando un control claro y organizado de la información.",
+      image: "img/proyecto-5.jpg",
+      technologies: ["React", "Tailwind", "Supabase"],
+      link: "#"
     }
   ];
 

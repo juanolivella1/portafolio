@@ -1,4 +1,4 @@
-import { useDarkMode } from "./hooks/useDarkMode";
+import  useDarkMode  from "./hooks/useDarkMode";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
